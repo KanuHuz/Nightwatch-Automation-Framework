@@ -22,15 +22,6 @@ To run all the tests, run the following command in your terminal:
 
 # Project Structure
 
-├── custom-commands
-|   ├── login.js
-├── pages
-|   ├── LoginPage.js
-├── tests
-|   ├── login.js
-├── nightwatch.conf.js
-└── package.json
-
 - custom-commands
 This directory contains custom commands used in the tests.
 
