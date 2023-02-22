@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="tests.login"
+    errors="1" failures="0" hostname="" id="" package="login" skipped="0"
+    tests="0" time="0.000" timestamp="">
+  
+
+  
+    <system-err>
+       An error occurred while creating a new ChromeDriver session: [SessionNotCreatedError] session not created: This version of ChromeDriver only supports Chrome version 109
+Current browser version is 108.0.5359.124 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+  Verify if ChromeDriver is configured correctly; using:
+  {
+     start_process: true,
+     server_path: &#39;/Users/facundo.huser/Documents/Nightwatch/node_modules/chromedriver/lib/chromedriver/chromedriver&#39;,
+     port: undefined,
+     host: &#39;localhost&#39;,
+     ssl: false,
+     default_path_prefix: &#39;&#39;,
+     proxy: undefined,
+     cli_args: []
+  }
+
+ 
+  Set webdriver.log_path in your Nightwatch config to retrieve more logs from ChromeDriver.
+    </system-err>
+  
+
+    
+    <error message=""><![CDATA[
+      
+      ]]></error>  
+
+  
+  </testsuite>
+</testsuites>
